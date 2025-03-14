@@ -1,4 +1,4 @@
-// This is a test update to trigger GitHub Actions
+// Triggering GitHub Actions Deployment
 
 import { useState } from "react";
 import "./LandingPage.css"; // Import CSS file
