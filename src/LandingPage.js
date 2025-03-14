@@ -1,3 +1,5 @@
+// This is a test update to trigger GitHub Actions
+
 import { useState } from "react";
 import "./LandingPage.css"; // Import CSS file
 import logo from "./Logo.png"; // Ensure the logo file is in src folder
