@@ -1,0 +1,60 @@
+/* Background */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3B82F6; /* Blue background */
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 250px; /* Increase the size */
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  filter: brightness(100%) contrast(100%); /* Improve logo visibility */
+}
+
+/* Heading & Text */
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Input & Button */
+.input-field {
+  padding: 12px;
+  width: 280px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.waitlist-button {
+  padding: 12px 20px;
+  background-color: white;
+  color: #3B82F6;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.waitlist-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Waitlist Counter */
+.waitlist-counter {
+  color: white;
+  margin-top: 15px;
+}
